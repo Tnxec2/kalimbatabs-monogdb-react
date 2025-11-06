@@ -1,0 +1,37 @@
+.editSong{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    z-index: 100;
+  }
+  
+  .editSong input{
+    height: 40px;
+    border: unset;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1.5px solid hsl(210, 10%, 75%);
+    padding-left: 5px;
+  }
+  
+  .editSong input:focus{
+    outline: none;
+  }
+  
+  
+  .editSong textarea {
+    height: 250px;
+    border-color: hsl(210, 10%, 75%);
+    font-size: 18px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    padding: 1em;
+  }
+  
+  .editSong textarea:focus { 
+    outline: none;
+  }
+  

@@ -1,0 +1,8 @@
+.rating__box {
+  white-space: nowrap;
+  margin-right: 1em;
+}
+
+.rating__checked {
+    color: orange;
+  }

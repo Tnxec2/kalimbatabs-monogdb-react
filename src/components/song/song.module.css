@@ -1,0 +1,53 @@
+.song{
+    margin-top: 20px;
+  }
+  
+  .song h2{
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .interpreter {
+    font-style: italic;
+  }
+  
+  .song p{
+    margin-top: 10px;
+    font-size: 18px;
+    max-height: 300px;
+    line-height: 25px;
+    overflow-y: auto;
+    color: hsl(210, 20%, 25%);
+  }
+
+  .song_songtext {
+    border: 1px solid #888;
+    white-space: pre-wrap;
+    font-family: monospace;
+    padding: 1em;
+    margin: 1em 0;
+  }
+
+  .song_buttons {
+    display: flex;
+    justify-content: right;
+  }
+
+
+  .song__deleteButton {
+    color: hsl(0, 80%, 80%);
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .song__deleteButton:hover {
+    color: hsl(0, 70%, 70%);
+  }
+  
+  .song__deleteButton:active {
+    color: hsl(0, 80%, 80%);
+  }
+
